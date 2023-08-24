@@ -9,21 +9,19 @@
    "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/zenisca/guzzle-oauth2-middleware"
+            "url": "https://github.com/Western-Equipment/guzzle-oauth2-middleware.git"
         }
     ],
   "require": {
-    "php": ">=5.5.9",
-    "guzzlehttp/guzzle":"~7.0",
-   
-
+    "php": "5.6|^7.1|^8.0",
+    "guzzlehttp/guzzle":"^7.0",
     "psr/log": "~1.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.0",
+    "phpunit/phpunit": "^4.0|^5.7|^6.0|^7.0|^8.0|^9.0",
     "phpspec/phpspec": "~2.1",
-    "mockery/mockery": "0.9.*",
-    "satooshi/php-coveralls": "1.*"
+    "mockery/mockery": "^0.9|^1.0",
+    "satooshi/php-coveralls": "^1.0|^2.0"
   },
   "autoload": {
     "classmap": [
